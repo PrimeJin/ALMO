@@ -16,14 +16,14 @@ SSAFY에서 진행되는 내용과는 무관한 스터디 자체 문제 선정�
 
 ## 👨🏻‍💻 코드 관리
 
-1. **일자에 맞는 폴더 생성** (ex. day1, day2 …)
-2. **일자 폴더 안에 각자 이름 폴더 생성** (ex. woojin)
+1. **주차에 맞는 폴더 생성** (ex. week1, week2 …)
+2. **주차 폴더 안에 각자 이름 폴더 생성** (ex. woojin)
 3. **이름 폴더 안에 그 주차 문제 푼 .java 파일 저장** (ex. Main_BOJ_문제번호_woojin.java || Main_PRO_문제번호_woojin.java)
-4. **각자 branch에 당일 결과물 commit, push 완료** (ex. Add day1 woojin) 
+4. **각자 branch에 당일 결과물 commit, push 완료** (ex. Add week1 woojin) 
     ```
     $ git checkout 브랜치명
     $ git add .
-    $ git commit -m "Add day1 이름" (Add day1 woojin)
+    $ git commit -m "Add 주차 파일이름 이름" (ex. Add week1 Main_BOJ_문제번호_woojin)
     $ git push origin 브랜치명
     ```
 5. **main branch에 Pull Request 진행** (특이사항 comment 작성)
