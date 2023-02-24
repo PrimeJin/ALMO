@@ -20,9 +20,6 @@ public class Main_BOJ_15650_minji {
         visited = new boolean[N+1];
         result = new int[M];
         combination(visited, 0, 1);
-
-
-
     }
 
     private static void combination(boolean[] visited, int count, int start) {
