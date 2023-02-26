@@ -18,8 +18,8 @@ SSAFY에서 진행되는 내용과는 무관한 스터디 자체 문제 선정�
 
 1. **주차에 맞는 폴더 생성** (ex. week1, week2 …)
 2. **주차 폴더 안에 각자 이름 폴더 생성** (ex. woojin)
-3. **이름 폴더 안에 그 주차 문제 푼 .java 파일 저장** (ex. Main_BOJ_문제번호_woojin.java || Main_PRO_문제번호_woojin.java)
-4. **각자 branch에 당일 결과물 commit, push 완료** (ex. Add week1 Main_BOJ_문제번호_woojin) 
+3. **이름 폴더 안에 그 주차 문제 푼 .java 파일 저장** (ex. Main_BOJ_문제번호_문제이름_woojin.java || Solution_PRO_문제이름_woojin.java)
+4. **각자 branch에 당일 결과물 commit, push 완료** (ex. Add week1 Main_BOJ_문제번호_문제이름_woojin) 
     ```
     $ git checkout 브랜치명
     $ git add .
