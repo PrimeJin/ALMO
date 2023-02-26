@@ -19,7 +19,7 @@ public class Solution_PRO_포켓몬_minji {
         }else{
             answer = length;
         }
-
+        
         return answer;
     }
 }
