@@ -20,7 +20,6 @@ public class Solution_PRO_전화번호목록_minji {
             }
         }
 
-
         return answer;
     }
 }
