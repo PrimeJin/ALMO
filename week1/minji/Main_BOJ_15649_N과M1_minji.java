@@ -43,5 +43,4 @@ public class Main_BOJ_56238173_minji {
         return;
     }
 
-
 }

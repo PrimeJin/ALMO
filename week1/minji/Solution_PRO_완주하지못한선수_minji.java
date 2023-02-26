@@ -23,5 +23,4 @@ public class Solution_PRO_완주하지못한선수_minji {
 
         return answer;
     }
-
 }
