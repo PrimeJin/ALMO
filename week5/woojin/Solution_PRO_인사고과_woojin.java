@@ -31,28 +31,24 @@ class Solution {
             }
         }
         
-        Arrays.sort(idxArr, (o1,o2) -> o1.a==o2.a? (o1.b-o2.b) : o1.a-o2.a);
+        Arrays.sort(idxArr, (o1,o2) -> o1.a==o2.a? (o1.b-o2.b) : o1.a-o2.a);  //근무태도점수(a)오름차순 정렬, a가 같을 때는 동료평가점수(b) 오름차순 정렬
         for(int i=0; i<len; i++) {
             int tmpA = idxArr[i].a;
             int tmpB = idxArr[i].b;
             int tmpIdx = idxArr[i].idx;
             if(!check[tmpIdx]) {
                 for(int j=i+1; j<len; j++) {
-                if(tmpA < idxArr[j].a && tmpB < idxArr[j].b) {
-                    check[tmpIdx] = true;
-                    break;
-                }
+                    if(tmpA < idxArr[j].a && tmpB < idxArr[j].b) {
+                        check[tmpIdx] = true;
+                        break;
+                    }
                 
-            }
+                }
             }
             
         }
         
-        
         int answer = 1;
-        //5 5
-        //4 4
-        //1 6
         for(int i=1; i<sumArr.length; i++) {
             if(sumArr[i] > sumArr[0] && !check[i] ) {
                 answer++;
@@ -74,3 +70,6 @@ class Solution {
         }
     }
 }
+//5 5
+//4 4
+//1 6
