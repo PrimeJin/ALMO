@@ -3,7 +3,7 @@ package week2.minji;
 import java.util.*;
 import java.io.*;
 
-public class Main
+public class Solution_PRO_등대_minji
 {
 
     public static void main(String args[]) throws IOException
