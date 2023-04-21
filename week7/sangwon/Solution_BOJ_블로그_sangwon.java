@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solution_BOJ_ºí·Î±×_sangwon {
+public class Solution_BOJ_ë¸”ë¡œê·¸_sangwon {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
@@ -13,14 +13,13 @@ public class Solution_BOJ_ºí·Î±×_sangwon {
 		}
 		
 		
-		//½½¶óÀÌµù À©µµ¿ì
+		//ìŠ¬ë¼ì´ë”© ìœˆë„ìš°
 		int sum = 0;
 		for(int i=0; i<X; i++) {
-			sum += visitor[i]; //visitor[0] ~ visitor[X-1]±îÁöÀÇ ÇÕ
+			sum += visitor[i]; //visitor[0] ~ visitor[X-1]ê¹Œì§€ì˜ í•©
 		}		
 		
 		PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
-		
 		pq.add(sum);		
 				
 		for(int i=0; i<N-X; i++) {
